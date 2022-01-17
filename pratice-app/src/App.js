@@ -29,7 +29,6 @@ function App() {
       <h1>Lets jump right now!!</h1>       
     
     <Paragrafo text='thought more and practice double down' />
-    
      {moreone}
      <br/>
      <Button text ='+' onClick= {Increased}  />
