@@ -11,6 +11,20 @@ const Paragrafo = (props) => {
   )
 }
 
+const H1 = (props) =>{
+ return (
+   <h1> {props.write} </h1>
+ )
+}
+
+const H3 = (props) =>{
+  return (
+    <h3> {props.kinda} </h3>
+  )
+ }
+
+
+
 
 function App() {
  const [moreone, setmoreone] = useState(0)
@@ -36,6 +50,9 @@ function App() {
 
       <input type='email'></input>
        
+
+      <H1  write='thuoght about your future'/>
+      <H3   kinda = 'never think that you studies much, always have some that studies more with you' />      
       
       </div>
   );
