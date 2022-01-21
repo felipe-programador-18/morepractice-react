@@ -34,6 +34,9 @@ function App() {
      <Button text ='+' onClick= {Increased}  />
      <Button text ='-' onClick= {decrement}  />
 
+      <input type='email'></input>
+       
+      
       </div>
   );
 }
