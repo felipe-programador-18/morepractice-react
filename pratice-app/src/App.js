@@ -37,6 +37,9 @@ const UseGet = url =>{
     ({loading:true, data:{}})
     ) 
 
+// practice about map interativ list    
+
+
    
 // i always make and use usereducer because to seeing and show in the dashboard
 
@@ -52,6 +55,10 @@ const UseGet = url =>{
 
 }
  
+const Arrey = [1,2,3,4,5,6,7,8,9,10]
+const Caught = Arrey.map((Arrey) =>{
+   return <ul> {Arrey**2} </ul>
+})
 
 
 
@@ -89,7 +96,8 @@ function App() {
   return (
     <div className="App">
       <h1>Lets jump right now!!</h1>       
-    
+      
+      <ul> {Caught} </ul> 
     <Paragrafo text='thought more and practice double down' />
      {moreone}
      <br/>
@@ -102,7 +110,7 @@ function App() {
       <H1  write='thuoght about your future'/>
       <H3   kinda = 'never think that you studies much, always have some that studies more with you' />    
 
-
+    
 
 
       <h1>Test api here now</h1>
