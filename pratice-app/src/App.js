@@ -8,7 +8,7 @@ import axios from 'axios'
 
 //remmerber to caught url i have always remmeber caught api about axios
 
-const Url ="https://testeapp-practice-default-rtdb.firebaseio.com/movimentacoes.json"
+const Url ="https://build-api-8a54e-default-rtdb.firebaseio.com"
 
 //remember reducer function always receive state and action to caught API REST!!
 const reducer = (state, action) =>{
